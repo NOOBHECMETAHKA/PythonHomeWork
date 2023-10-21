@@ -45,7 +45,7 @@ def onlyNumber(text):
 
 
 while True:
-    inputer = "12"
+    inputer = input("Введите месяц года: ")
     if not onlyNumber(inputer):
         word = months_names.get(inputer)
         if word is not None:
